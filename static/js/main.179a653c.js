@@ -29841,85 +29841,85 @@ r.amdO = {}, r.n = function(e) {
                 },
                 testnet: !0
             }, {
-                id: 137,
-                name: "Polygon",
-                network: "matic",
+                id: 1,
+                name: "Ethereum",
+                network: "mainnet",
                 nativeCurrency: {
-                    name: "MATIC",
-                    symbol: "MATIC",
+                    name: "Ether",
+                    symbol: "ETH",
                     decimals: 18
                 },
                 rpcUrls: {
                     alchemy: {
-                        http: ["https://polygon-mainnet.g.alchemy.com/v2"],
-                        webSocket: ["wss://polygon-mainnet.g.alchemy.com/v2"]
+                        http: ["https://eth-mainnet.g.alchemy.com/v2/Rl09g9DRwpFKFsUKkJldkk035_9nf8TW"],
+                        webSocket: ["wss://eth-mainnet.g.alchemy.com/v2"]
                     },
                     infura: {
-                        http: ["https://polygon-mainnet.infura.io/v3"],
-                        webSocket: ["wss://polygon-mainnet.infura.io/ws/v3"]
+                        http: ["https://mainnet.infura.io/v3"],
+                        webSocket: ["wss://mainnet.infura.io/ws/v3"]
                     },
                     default: {
-                        http: ["https://polygon-rpc.com"]
+                        http: ["https://eth.llamarpc.com"]
                     },
                     public: {
-                        http: ["https://polygon-rpc.com"]
+                        http: ["https://eth.llamarpc.com"]
                     }
                 },
                 blockExplorers: {
                     etherscan: {
-                        name: "PolygonScan",
-                        url: "https://polygonscan.com"
+                        name: "etherscan",
+                        url: "https://etherscan.io"
                     },
                     default: {
-                        name: "PolygonScan",
-                        url: "https://polygonscan.com"
+                        name: "etherscan",
+                        url: "https://etherscan.io"
                     }
                 },
                 contracts: {
                     multicall3: {
-                        address: "0xca11bde05977b3631167028862be2a173976ca11",
-                        blockCreated: 25770160
+                        address: "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
+                        blockCreated: 	7929876
                     }
                 }
             }, {
-                id: 80001,
-                name: "Polygon Mumbai",
-                network: "maticmum",
+                id: 	11155111,
+                name: "Ethereum Testnet Sepolia",
+                network: "sepolia",
                 nativeCurrency: {
-                    name: "MATIC",
-                    symbol: "MATIC",
+                    name: "Sepolia Ether",
+                    symbol: "ETH",
                     decimals: 18
                 },
                 rpcUrls: {
                     alchemy: {
-                        http: ["https://polygon-mumbai.g.alchemy.com/v2"],
-                        webSocket: ["wss://polygon-mumbai.g.alchemy.com/v2"]
+                        http: ["https://eth-sepolia.g.alchemy.com/v2"],
+                        webSocket: ["wss://eth-sepolia.g.alchemy.com/v2/GMIqUiXIHdcZ3SYoBMKyY8RekfxyY7fT"]
                     },
                     infura: {
-                        http: ["https://polygon-mumbai.infura.io/v3"],
-                        webSocket: ["wss://polygon-mumbai.infura.io/ws/v3"]
+                        http: ["https://sepolia.infura.io/v3"],
+                        webSocket: ["wss://sepolia.infura.io/ws/v3"]
                     },
                     default: {
-                        http: ["https://matic-mumbai.chainstacklabs.com"]
+                        http: ["https://ethereum-sepolia-rpc.publicnode.com"]
                     },
                     public: {
-                        http: ["https://matic-mumbai.chainstacklabs.com"]
+                        http: ["https://ethereum-sepolia-rpc.publicnode.com"]
                     }
                 },
                 blockExplorers: {
                     etherscan: {
                         name: "PolygonScan",
-                        url: "https://mumbai.polygonscan.com"
+                        url: "https://sepolia.etherscan.io/"
                     },
                     default: {
                         name: "PolygonScan",
-                        url: "https://mumbai.polygonscan.com"
+                        url: "https://sepolia.etherscan.io/"
                     }
                 },
                 contracts: {
                     multicall3: {
-                        address: "0xca11bde05977b3631167028862be2a173976ca11",
-                        blockCreated: 25770160
+                        address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+                        blockCreated: 	751532
                     }
                 },
                 testnet: !0
