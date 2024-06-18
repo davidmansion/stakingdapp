@@ -28465,11 +28465,11 @@ r.amdO = {}, r.n = function(e) {
                             children: [(0, Ca.jsx)(De, {
                                 to: "https://cryptoheroesnet-4855faf89c52e69809cab4f.webflow.io/",
                                 className: "mx-3",
-                                children: "Crypto Heros"
+                                children: "Euro 2024"
                             }), (0, Ca.jsx)(De, {
                                 to: "/",
                                 className: "mx-3",
-                                children: "Home"
+                                children: "It's Coming Home"
                             })]
                         })
                     }), (0, Ca.jsx)("div", {
@@ -28522,8 +28522,8 @@ r.amdO = {}, r.n = function(e) {
                                 style: {
                                     color: "white"
                                 },
-                                href: "https://team@cryptoheroes.vip",
-                                children: "team@cryptoheroes.vip"
+                                href: "https://team@euro2024.vip",
+                                children: "team@euro2024.vip"
                             })
                         })
                     }), (0, Ca.jsxs)("div", {
@@ -28546,7 +28546,7 @@ r.amdO = {}, r.n = function(e) {
                         style: {
                             marginTop: "80px"
                         },
-                        children: "Copyright \xa9 2023 Crypto Heroes. All rights reserved!"
+                        children: "Copyright \xa9 2024 Euro's 2024. All rights reserved!"
                     })]
                 })
             })
@@ -28636,7 +28636,7 @@ r.amdO = {}, r.n = function(e) {
                     children: [(0, Ca.jsx)("div", {
                         children: (0, Ca.jsx)("h1", {
                             className: "fs-9 b ",
-                            children: "Staking Crypto Heros"
+                            children: "Staking Euro 2024"
                         })
                     }), C && C > 0 && (0, Ca.jsx)("section", {
                         className: "my-5 mb-5",
@@ -28686,7 +28686,7 @@ r.amdO = {}, r.n = function(e) {
                                     children: "Balance : "
                                 }), (0, Ca.jsxs)("span", {
                                     className: "b ml-3 tcs ",
-                                    children: [a, " $HEROES"]
+                                    children: [a, " $ETF"]
                                 })]
                             }), (0, Ca.jsxs)("p", {
                                 className: "right fs-5 available-balance",
@@ -28695,7 +28695,7 @@ r.amdO = {}, r.n = function(e) {
                                     children: "Already Staked : "
                                 }), (0, Ca.jsxs)("span", {
                                     className: "b ml-3 tcs ",
-                                    children: [w, " $HEROES"]
+                                    children: [w, " $ETF"]
                                 })]
                             }), (0, Ca.jsxs)("p", {
                                 className: "right fs-5 available-balance",
@@ -28704,7 +28704,7 @@ r.amdO = {}, r.n = function(e) {
                                     children: "Approved For Staking : "
                                 }), (0, Ca.jsxs)("span", {
                                     className: "b ml-3 tcs ",
-                                    children: [E, " $HEROES"]
+                                    children: [E, " $ETF"]
                                 })]
                             }), (0, Ca.jsxs)("p", {
                                 className: "right fs-5 available-balance",
@@ -28713,7 +28713,7 @@ r.amdO = {}, r.n = function(e) {
                                     children: "Rewards : "
                                 }), (0, Ca.jsxs)("span", {
                                     className: "b ml-3 tcs ",
-                                    children: [C, " $HEROES"]
+                                    children: [C, " $ETF"]
                                 })]
                             }), (0, Ca.jsx)("input", {
                                 onChange: function(e) {
@@ -28780,7 +28780,7 @@ r.amdO = {}, r.n = function(e) {
                                             }))
                                         },
                                         class: "btn  py-2 mx-3 w-300",
-                                        children: ["Remove ", c, " $Hero", " "]
+                                        children: ["Remove ", c, " $ETF", " "]
                                     })
                                 })]
                             })
@@ -30324,7 +30324,7 @@ r.amdO = {}, r.n = function(e) {
                     return function(e, r) {
                         return t.apply(this, arguments)
                     }
-                }(), this.isLogin = !1, this.totalStackers = 0, this.stackedAmount = 0, this.rewardIssued = 0, this.address = "", this.contract = "0xC6121c8f5143E5609882E609E18a10B313E105d6", this.stackingContract = "0xd3139725B5A59fA93a9D15c5B78D866e1Daa5c54", this.abi = $a, this.owner = "", this.rpc = "https://bsc.meowrpc.com", this.provider = new gn(this.rpc)
+                }(), this.isLogin = !1, this.totalStackers = 0, this.stackedAmount = 0, this.rewardIssued = 0, this.address = "", this.contract = "0xC6121c8f5143E5609882E609E18a10B313E105d6", this.stackingContract = "0xd3139725B5A59fA93a9D15c5B78D866e1Daa5c54", this.abi = $a, this.owner = "", this.rpc = "https://sepolia.infura.io/v3/", this.provider = new gn(this.rpc)
             })),
             no = new ro;
         "yes" == sessionStorage.getItem("isLogin") && (no.isLogin = !0, no.user = JSON.parse(sessionStorage.getItem("user"))), s.createRoot(document.getElementById("root")).render((0, Ca.jsx)(o.StrictMode, {
